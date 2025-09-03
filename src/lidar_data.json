@@ -1,0 +1,82 @@
+[
+  {
+    "header": {
+      "stamp": {
+        "sec": 1672531200,
+        "nanosec": 100000000
+      },
+      "frame_id": "lidar_frame"
+    },
+    "height": 1,
+    "width": 3,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      }
+    ],
+    "is_bigendian": false,
+    "point_step": 16,
+    "row_step": 48,
+    "data": [
+      [1.1, 2.2, 3.3],
+      [1.5, 2.8, 3.1],
+      [1.9, 2.0, 3.5]
+    ],
+    "is_dense": true
+  },
+  {
+    "header": {
+      "stamp": {
+        "sec": 1672531200,
+        "nanosec": 200000000
+      },
+      "frame_id": "lidar_frame"
+    },
+    "height": 1,
+    "width": 3,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      }
+    ],
+    "is_bigendian": false,
+    "point_step": 16,
+    "row_step": 48,
+    "data": [
+      [4.1, 5.2, 6.3],
+      [4.5, 5.8, 6.1],
+      [4.9, 5.0, 6.5]
+    ],
+    "is_dense": true
+  }
+]

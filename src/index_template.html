@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Pages Index</title>
+</head>
+<body>
+    <h1>プロジェクトのグラフ一覧</h1>
+    <ul>
+        {% for file in files %}
+        <li><a href="{{ file }}">{{ file | replace('.html', '') }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
