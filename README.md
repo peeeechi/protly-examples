@@ -2,4 +2,4 @@
 
 このプロジェクトのGitHub Pagesサイトはこちら:
 
-[GitHub Pages URL](GITHUB_PAGES_URL_PLACEHOLDER)
+[GitHub Pages URL](https://peeeechi.github.io/protly-examples/)
